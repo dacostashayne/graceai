@@ -1,0 +1,23 @@
+{
+  "name": "GraceAI",
+  "short_name": "GraceAI",
+  "description": "Catholic faith-based mental wellness and discipleship app",
+  "theme_color": "#0A0705",
+  "background_color": "#0A0705",
+  "display": "standalone",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
