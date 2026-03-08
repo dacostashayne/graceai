@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-bg text-text min-h-screen;
+  font-family: var(--font-garamond), serif;
+  background-image:
+    radial-gradient(circle at center, rgba(201,168,76,0.06) 0%, rgba(10,7,5,1) 72%),
+    linear-gradient(rgba(10, 7, 5, 0.95), rgba(10, 7, 5, 0.98));
+}
+
+main {
+  position: relative;
+}
+
+.grain::before {
+  content: '';
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  opacity: 0.08;
+  background-image: radial-gradient(#fff 0.4px, transparent 0.4px);
+  background-size: 4px 4px;
+}
+
+.section-title {
+  font-family: var(--font-cinzel), serif;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.scripture {
+  font-family: var(--font-crimson), serif;
+  font-style: italic;
+  color: #c9a84c;
+}
